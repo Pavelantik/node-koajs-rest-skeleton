@@ -1,4 +1,4 @@
-const myDb = require('../managers/testDbManager'),
+const myDb = require('../managers/redisDBManager-v2.js'), //redisDBManager.js , testDbManager redisDBManager-v2
       Joi = require('joi'),
 
     // Simple user schema, more info: https://github.com/hapijs/joi

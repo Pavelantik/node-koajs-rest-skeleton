@@ -36,6 +36,9 @@ module.exports = {
      * @return {Promise}
      */
     setNewId: function setNewIdToDb(name) {
+        
+
+
         let length = db.length;
         db.push({id: length, name: name});
         return module.exports.getById(length);
